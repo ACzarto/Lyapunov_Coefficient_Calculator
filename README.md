@@ -1,5 +1,5 @@
 # Lyapunov_Exponent_Calculator
-This repository contains a function to compute the Lyapunov exponent, which is used as a measure of chaotic behavior. For the evaluation of the algorithm we will use the Lorentz attractor as an example
+This repository contains a function to compute the Lyapunov exponent, which is used as a measure of chaotic behavior. For the evaluation of the algorithm we will use the Lorentz attractor as an example.
 
 
 The Lorenz System is a set of three coupled, non-linear ordinary differential equations (ODEs) that simplified the mathematical modeling of atmospheric convection. Developed by Edward Lorenz, this system became famous for demonstrating the butterfly effect, where minor perturbations in initial states lead to vastly different outcomes and for generating the iconic, butterfly-shaped Lorenz strange attractor as displayed in the following figure:
