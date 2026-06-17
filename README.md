@@ -1,10 +1,8 @@
 # Lyapunov_Exponent_Calculator
-This repository contains a function to compute the Lyapunov exponent, which is used as a measure of chaotic behavior. For the evaluation of the algorithm we will use the Lorentz attractor as an example.
+This repository contains a function to compute the Lyapunov coefficient, which is used as a measure of chaotic behavior, based on the Lorenz Attractor.
 
 
-The Lorenz System is a set of three coupled, non-linear ordinary differential equations (ODEs) that simplified the mathematical modeling of atmospheric convection. Developed by Edward Lorenz, this system became famous for demonstrating the butterfly effect, where minor perturbations in initial states lead to vastly different outcomes and for generating the iconic, butterfly-shaped Lorenz strange attractor as displayed in the following figure:
-
-![StrangeAttractor](Strange_attractor.png)
+The Lorenz System is a set of three coupled, non-linear ordinary differential equations (ODEs) that simplified the mathematical modeling of atmospheric convection. Developed by Edward Lorenz, this system became famous for demonstrating the butterfly effect, where minor perturbations in initial states lead to vastly different outcomes and for generating the iconic, butterfly-shaped Lorenz strange attractor.
 
 The system of equations is
 
@@ -23,13 +21,5 @@ The goal of our algorithm is to compute the so-called Lyapunov Exponent, given b
 $$\lambda_{\max} = \lim_{t \to \infty} \lim_{d_0 \to 0} \frac{1}{t} \ln \left( \frac{d(t)}{d_0} \right)$$
 
 For the function it will be used the Oseledets Method that uses the Jacobian Matrix and in the case of the Lorentz Atractor, we will have 3 Lyapunov Exponents.
-
-The obtained values are in fact what would be expected in the literature:
-
-$$\lambda_1 \approx 0.9$$
-
-$$\lambda_2 \approx 0$$
-
-$$\lambda_3 \approx -14.55$$
 
 
