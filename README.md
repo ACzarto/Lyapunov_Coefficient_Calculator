@@ -23,7 +23,7 @@ $$\lambda_{\max} = \lim_{t \to \infty} \lim_{d_0 \to 0} \frac{1}{t} \ln \left( \
 
 For the function it will be used the Oseledets Method that uses the Jacobian Matrix and in the case of the Lorentz Atractor, we will have 3 Lyapunov Exponents.
 
-The obtained values by this function are indeed what we would expect in the literature:
+The obtained values (considering $\sigma = 10$, $\rho = 28$ and $\beta = 8/3$) by this function are indeed what we would expect in the literature:
 
 $$\lambda_1 \approx 0.9$$
 
@@ -31,4 +31,5 @@ $$\lambda_2 \approx 0$$
 
 $$\lambda_3 \approx -14.5$$
 
+Since the largest Lyapunov exponent is positive, the system exhibits chaotic behavior.
 
